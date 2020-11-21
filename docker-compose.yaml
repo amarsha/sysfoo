@@ -1,7 +1,7 @@
 version: "3.8"
 
 services:
-sysfoo:
-image: amarsha1/sysfoo:latest
-ports:
-- 8888:8080
+  sysfoo:
+    image: initcron/sysfoo:latest
+    ports:
+      - 8888:8080
